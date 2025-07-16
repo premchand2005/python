@@ -1,0 +1,13 @@
+b = set()
+print(type(b))
+#adding value to an empty set
+b.add(4)
+b.add(5)
+b.add(6)
+b.add(6)
+b.add(1)
+b.add(7)
+b.add(9)
+# b.add([2,6,8])
+# b.add({2,3,4})
+print(b)
